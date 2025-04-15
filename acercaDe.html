@@ -97,6 +97,30 @@
             <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="24" height="24">
           </a>
         </div>
+          <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+        <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+        <df-messenger
+          project-id="deberagentebc"
+          agent-id="3ef60ad9-6353-4b32-9627-f52f65ca9d58"
+          language-code="es"
+          max-query-length="-1">
+          <df-messenger-chat-bubble
+            chat-title="bot_pagina_web">
+          </df-messenger-chat-bubble>
+        </df-messenger>
+        <style>
+          df-messenger {
+            z-index: 999;
+            position: fixed;
+            --df-messenger-font-color: #000;
+            --df-messenger-font-family: Google Sans;
+            --df-messenger-chat-background: #f3f6fc;
+            --df-messenger-message-user-background: #d3e3fd;
+            --df-messenger-message-bot-background: #fff;
+            bottom: 16px;
+            right: 16px;
+          }
+        </style>
       </footer>
 </body>
 </html>m
